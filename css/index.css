@@ -138,8 +138,27 @@ footer{
     right: calc(50% - 20px);
 }
 
+.bag-dark{
+    background-color: black !important;
+}
 
+footer{
+    font-size: 15px;
+}
 
+footer p{
+    font-size: 15px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover{
+    text-decoration: none;
+    color: gray;
+}
 
 @media screen and (max-width: 800px){
 
@@ -200,4 +219,8 @@ footer{
         font-weight: 500;
     }
 
+    .bag-dark{
+        background-color: black !important;
+    }
+    
 }
