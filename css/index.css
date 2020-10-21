@@ -182,6 +182,12 @@ footer ul li a:hover{
     color: #0df053;
 }
 
+@keyframes mover{
+    0%{
+        transform: translate(100%);
+    }
+}
+
 @media screen and (max-width: 800px){
 
     .empresa h3{

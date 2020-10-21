@@ -12,13 +12,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   <title>Titulo</title>
 </head>
 
 <body>
 
-  <a  target="_blank" href="https://api.whatsapp.com/send?phone=34648532794&text=Hola!%20Estamos%20a%20sus%20ordenes" class="btn-wsp" target="_blank"> <i class="fa fa-whatsapp"></i> </a>
+  <a target="_blank" href="https://api.whatsapp.com/send?phone=34648532794&text=Hola!%20Estamos%20a%20sus%20ordenes"
+    class="btn-wsp"> <i class="fa fa-whatsapp"></i> </a>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
     <a class="navbar-brand" href="#">IM MARKETING</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -52,7 +56,7 @@
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-12 text-center ">
-            <img src="img/IMG_20201019_130637-removebg-preview.png" class="img-fluid" alt="">
+            <img src="img/IMG_20201019_130637-removebg-preview.png" class="img-fluid animate__heartBeat" id="animado" alt="">
           </div>
         </div>
       </div>
@@ -120,7 +124,7 @@
     <section id="ventajas" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Beneficios
       </h2>
-      <div class="container">
+      <div class="container" data-aos="flip-left">
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
             <ul>
@@ -131,8 +135,8 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <img src="img/WhatsApp_Image_2020-10-19_at_15.31.32-removebg-preview (1).png"
-              class="img-fluid temblor" width="80%" alt="">
+            <img src="img/WhatsApp_Image_2020-10-19_at_15.31.32-removebg-preview (1).png" class="img-fluid temblor" 
+              width="80%" alt="">
           </div>
         </div>
       </div>
@@ -142,7 +146,7 @@
 
       <h2 class="text-center title "> <img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Servicios
       </h2>
-      <div class="servicios container">
+      <div class="servicios container" data-aos="flip-up">
         <div class="row mt-5">
           <div class="col-12 text-center">
             <table class="table">
@@ -217,7 +221,7 @@
     <section id="proceso" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Nuestro
         proceso</h2>
-      <div class="container">
+      <div class="container" data-aos="flip-down">
         <div class="row d-flex align-items-center ">
           <div class="col-md-6 proceso">
             <img src="img/WhatsApp_Image_2020-10-17_at_18.31.39-removebg-preview.png" class="img-fluid temblor" alt="">
@@ -238,7 +242,7 @@
     <section id="oportunidad" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="10%" alt="">¡Es tu
         oportunidad!</h2>
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
@@ -258,7 +262,7 @@
     <section id="nosotros" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="10%" alt="">¿Porqué
         escogernos?</h2>
-      <div class="container">
+      <div class="container" data-aos="zoom-in-up">
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
@@ -277,7 +281,7 @@
 
 
     <section id="contacto" class="mt-5 bg-warning">
-      <div class="container text-center pt-4 ">
+      <div class="container text-center pt-4 " data-aos="fade-left">
         <div class="mt-3">
           <div class="dialogo">
             <p><b>Si gustas más información y una asesoria gratis ponte en contacto con nosotros llenando el siguiente
@@ -309,7 +313,7 @@
   <footer class="bag-dark">
 
     <div class="bg-light">
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="row py-4 d-flex align-items-center">
           <div class="col-md-12 text-center">
             <a href=""><i class="fa fa-facebook text-dark mr-4"></i></a>
@@ -322,12 +326,14 @@
       </div>
     </div>
 
-    <div class="container text-center text-md-left mt-5">
+    <div class="container text-center text-md-left mt-5" data-aos="fade-down">
       <div class="row">
         <div class="col-md-3 mx-auto mb-4">
           <h6 class="text-uppercase font-weight-bolf">IM MARKETING</h6>
           <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px;height: 2px;">
-          <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro a, sit eveniet qui nostrum voluptate nam quos? Ratione dignissimos blanditiis iusto voluptatibus ullam pariatur earum est dolorum eum, eveniet at?</p>
+          <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro a, sit eveniet qui nostrum
+            voluptate nam quos? Ratione dignissimos blanditiis iusto voluptatibus ullam pariatur earum est dolorum eum,
+            eveniet at?</p>
         </div>
 
         <div class="col-md-2 mx-auto mb-4">
@@ -357,8 +363,8 @@
           <h6 class="text-uppercase font-weight-bolf">Contacto</h6>
           <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 75px;height: 2px;">
           <ul class="list-unstyled">
-            <li class="my-2"><i class="fa fa-home mr-1"> </i>  Dirección</li>
-            <li class="my-2"><i class="fa fa-envelope mr-1"></i>  fmservices.20sl@gmail.com</li>
+            <li class="my-2"><i class="fa fa-home mr-1"> </i> Dirección</li>
+            <li class="my-2"><i class="fa fa-envelope mr-1"></i> fmservices.20sl@gmail.com</li>
             <li class="my-2"><i class="fa fa-phone mr-1"></i> +34 648 532 794</li>
             <li class="my-2"><i class=""></i></li>
           </ul>
@@ -378,6 +384,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>
