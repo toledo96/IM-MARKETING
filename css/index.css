@@ -1,0 +1,203 @@
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.empresa h3{
+    font-size: 40px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#ventajas li{
+    list-style-type: square;
+    font-size: 29px;
+}
+
+.pregunta{
+    background-color: #191919;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+}
+
+@-webkit-keyframes animar{
+    0%{-webkit-transform: translate(0px,0px);}
+    10%{-webkit-transform: translate(10px,0px);}
+    20%{-webkit-transform: translate(0px,0px);}
+    30%{-webkit-transform: translate(10px,0px);}
+    40%{-webkit-transform: translate(0px,0px);}
+    50%{-webkit-transform: translate(10px,0px);}
+    60%{-webkit-transform: translate(0px,0px);}
+    70%{-webkit-transform: translate(10px,0px);}
+    80%{-webkit-transform: translate(0px,0px);}
+    90%{-webkit-transform: translate(10px,0px);}
+    100%{-webkit-transform: translate(0px,0px);}
+}
+
+.temblor:hover{
+    -webkit-animation: animar 0.5s 1;
+}
+
+.btn-outline-warning{
+    color: white !important;
+}
+
+p{
+    font-size: 20px;
+}
+
+table{
+    font-size: 15px;
+}
+
+.proceso{
+    background-color: whitesmoke;
+}
+
+#proceso p{
+    font-size: 29px;
+}
+#proceso li{
+    list-style-type: square;
+    font-size: 25px;
+}
+
+footer{
+    /* background-color: black; */
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-top{
+    background: #111;
+    padding: 10px 0;
+}
+
+.segment-two h3::before{
+    content:'|';
+    color: #fee600;
+    padding-right: 10px;
+}
+
+.segment-two a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-two a i{
+    font-size: 20px;
+    padding:10px 12px;
+    color: white;
+}
+
+.adorno{
+    background-color: black;
+    width: 500px;
+    height: 50px;
+}
+
+#contacto .btn1{
+    /* width: 500px !important; */
+    /* height: 50px; */
+    
+}
+
+#contacto{}
+
+.dialogo{
+    background-color: #191919;
+    color: white;
+    padding:25px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    line-height: 28px;
+    position: relative;
+}
+
+.dialogo::after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom:-40px;
+    border-top: 20px solid #191919;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    right: calc(50% - 20px);
+}
+
+
+
+
+@media screen and (max-width: 800px){
+
+    .empresa h3{
+        font-size: 30px;
+    }
+
+    .title{
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    #ventajas li{
+        list-style-type: square;
+        font-size: 20px;
+    }
+    
+
+    .dialogo{
+        background-color: #191919;
+        color: white;
+        padding:10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        line-height: 25px;
+        position: relative;
+    }
+    
+    .dialogo::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom:-30px;
+        border-top: 20px solid #191919;
+        border-right: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        right: calc(50% - 20px);
+    }
+
+    #proceso p{
+        font-size: 23px;
+    }
+
+    #proceso li{
+        list-style-type: square;
+        font-size: 20px;
+    }
+
+    footer{
+        /* background-color: black; */
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+}
