@@ -12,13 +12,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   <title>Titulo</title>
 </head>
 
 <body>
 
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+  <a target="_blank" href="https://api.whatsapp.com/send?phone=34648532794&text=Hola!%20Estamos%20a%20sus%20ordenes"
+    class="btn-wsp"> <i class="fa fa-whatsapp"></i> </a>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">IM MARKETING</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +45,6 @@
           <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
     </div>
   </nav>
 
@@ -52,12 +53,8 @@
   <main>
 
     <section id="banner" class="mt-5">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-12 text-center ">
-            <img src="img/IMG_20201019_130637-removebg-preview.png" class="img-fluid" alt="">
-          </div>
-        </div>
+      <div class="container text-center">
+        <img src="img/IMG_20201019_130637-removebg-preview.png" class="img-fluid animate__heartBeat" id="animado" alt="">
       </div>
     </section>
 
@@ -72,11 +69,10 @@
               <div class="row d-flex align-items-center">
                 <div class="col-md-6 text-center">
                   <h3><b>Misión y Visión</b></h3>
-                  <br>
+
                   <p>
                     Nuestro propósito es financiar fondos sociales para hacer campañas apoyando a la gente que lo
-                    necesita (en unas semanas te enviaremos unos vídeos de estas campañas y los subirás a la página
-                    web).
+                    necesita (en unas semanas te enviaremos unos vídeos de estas campañas y los subirás a la página web).
                   </p>
 
                   <a href="" class="btn btn-primary btn-lg mt-3">¡Contactanos!</a>
@@ -118,14 +114,14 @@
         </div>
       </div>
 
-    </section>
+    </section> 
 
     <section id="ventajas" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Beneficios
       </h2>
-      <div class="container">
+      <div class="container" >
         <div class="row d-flex align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="flip-left">
             <ul>
               <li>Aumento de la facturación mensual</li>
               <li>95% de público interactivo y organico</li>
@@ -133,21 +129,20 @@
               <li>Cambio en el futuro de tu compañia</li>
             </ul>
           </div>
-          <div class="col-md-6">
-            <img src="img/_Pngtree_digital_marketing_campaign_online_promotion_5366345.png"
-              class="img-fluid temblor" alt="">
+          <div class="col-md-6 text-right" data-aos="flip-left">
+            <img src="img/WhatsApp_Image_2020-10-19_at_15.31.32-removebg-preview (1).png" class="img-fluid temblor" 
+              width="80%" alt="">
           </div>
         </div>
       </div>
     </section>
 
-    <section id="servicios" class="mt-5">
-
+    <section id="servicios" class="mt-5 servicios">
       <h2 class="text-center title "> <img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Servicios
       </h2>
-      <div class="servicios container">
+      <div class="container">
         <div class="row mt-5">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="flip-left">
             <table class="table">
               <thead class="thead-dark">
                 <tr>
@@ -210,22 +205,22 @@
         </div>
       </div>
 
-      <div class="text-center mt-5 pregunta">
+      <div class="text-center mt-5 pregunta" data-aos="fade-down">
         <p><b>Pregunta por nuestros paquetes personalizados en función a tus necesidades.</b></p>
         <a href="" class="btn btn-outline-warning btn-lg ">¡Contactar!</a>
       </div>
 
-    </section>
+    </section> 
 
     <section id="proceso" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Nuestro
         proceso</h2>
       <div class="container">
         <div class="row d-flex align-items-center ">
-          <div class="col-md-6 proceso">
+          <div class="col-md-6 proceso" data-aos="flip-left">
             <img src="img/WhatsApp_Image_2020-10-17_at_18.31.39-removebg-preview.png" class="img-fluid temblor" alt="">
           </div>
-          <div class="col-md-6 proceso">
+          <div class="col-md-6 proceso" data-aos="flip-right">
             <p>Después de hacer un estudio y habernos platicado sus objetivos:</p>
             <ul>
               <li>Planeamos una estrategía para hacer crecer su compañia</li>
@@ -239,49 +234,44 @@
     </section>
 
     <section id="oportunidad" class="mt-5">
-      <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="10%" alt="">¡Es tu
+      <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">¡Es tu
         oportunidad!</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
+      <div class="container text-center">
+          <div class="col-md-12 text-center" data-aos="zoom-in">
             <p>
               Juntos resolveremos los problemas que tu compañia ha tenido y de esa forma podremos hacer que tu negocio
               crezca,no te preocupes, estamos aqui para conocer tus metas y estamos seguros que justos las lograremos
-              cumplirlas.
+              cumplir.
             </p>
-          </div>
-          <div class="col-md-12 text-center">
             <img src="img/WhatsApp_Image_2020-10-19_at_15.31.12-removebg-preview (1).png" class="img-fluid temblor"
               width="20%" alt="">
           </div>
-        </div>
+
       </div>
-    </section>
+    </section> 
 
     <section id="nosotros" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="10%" alt="">¿Porqué
         escogernos?</h2>
-      <div class="container">
+      <div class="container" >
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class=" text-center" data-aos="zoom-in-up">
             <p>
               Somos más que una agencia de marketing, deseamos ser una familia en la cual nuestros clientes y
               trabajadores son uno. Nos encantaría conocerte, contestar todas tus preguntas y trabajar juntos cumpliendo
               todas tu metas y viendo crecer tu negocios.
             </p>
-          </div>
-          <div class="col-md-12 text-center">
             <img src="img/WhatsApp_Image_2020-10-19_at_15.30.28-removebg-preview (1).png" class="img-fluid temblor"
-              width="20%" alt="">
+            width="20%" alt="">
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
-
-    <section id="contacto" class="mt-5 bg-warning">
-      <div class="container text-center pt-4 ">
-        <div class="mt-3">
+    <!-- data-aos="fade-left" -->
+    <section id="contacto" class="mt-5 bg-warning" >
+      <div class="container text-center pt-4 " >
+        <div class="mt-3" data-aos="flip-left">
           <div class="dialogo">
             <p><b>Si gustas más información y una asesoria gratis ponte en contacto con nosotros llenando el siguiente
                 formulario</b></p>
@@ -305,24 +295,71 @@
         </div>
 
       </div>
-    </section>
+    </section> 
 
   </main>
 
-  <footer>
+  <footer class="bag-dark">
 
-    <div class="footer-top">
-
-      <div class="container">
-
-
-
+    <div class="bg-light">
+      <div class="container" data-aos="fade-up">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-12 text-center">
+            <a href=""><i class="fa fa-facebook text-dark mr-4"></i></a>
+            <a href=""><i class="fa fa-instagram text-dark mr-4"></i></a>
+            <a href=""><i class="fa fa-twitter text-dark mr-4"></i></a>
+            <a href=""><i class="fa fa-pinterest text-dark mr-4"></i></a>
+            <a href=""><i class="fa fa-linkedin text-dark mr-4"></i></a>
+          </div>
+        </div>
       </div>
-
     </div>
 
-  </footer>
+    <div class="container text-center text-md-left mt-5" data-aos="fade-down">
+      <div class="row">
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolf">IM MARKETING</h6>
+          <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 125px;height: 2px;">
+          <p class="mt-2">Cualquier texto</p>
+        </div>
 
+        <div class="col-md-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolf">Servicios</h6>
+          <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 85px;height: 2px;">
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="">DISEÑO WEB</a></li>
+            <li class="my-2"><a href="">SEO</a></li>
+            <li class="my-2"><a href="">ADS</a></li>
+            <li class="my-2"><a href="">BLOG</a></li>
+            <li class="my-2"><a href="">MARKETING</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolf">Secciones</h6>
+          <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 110px;height: 2px;">
+          <ul class="list-unstyled">
+            <li class="my-2"><a href="">Inicio</a></li>
+            <li class="my-2"><a href="">Nosotros</a></li>
+            <li class="my-2"><a href="">Servicios</a></li>
+            <li class="my-2"><a href="">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bolf">Contacto</h6>
+          <hr class="bg-warning mb-4 mt-0 d-inline-block mx-auto" style="width: 75px;height: 2px;">
+          <ul class="list-unstyled">
+            <li class="my-2"><i class="fa fa-home mr-1"> </i> Dirección</li>
+            <li class="my-2"><i class="fa fa-envelope mr-1"></i> fmservices.20sl@gmail.com</li>
+            <li class="my-2"><i class="fa fa-phone mr-1"></i> +34 648 532 794</li>
+            <li class="my-2"><i class=""></i></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 
   <!-- Optional JavaScript -->
@@ -336,6 +373,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 
 </html>

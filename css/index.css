@@ -1,6 +1,8 @@
+
 *{
-    margin:0px;
+    margin: 0px;
     padding: 0px;
+    /* position: relative; */
 }
 body{
     font-family: 'Open Sans', sans-serif !important;
@@ -110,12 +112,6 @@ footer{
     background-color: black;
     width: 500px;
     height: 50px;
-}
-
-#contacto .btn1{
-    /* width: 500px !important; */
-    /* height: 50px; */
-    
 }
 
 #contacto{}
@@ -273,16 +269,6 @@ footer ul li a:hover{
         color: #0df053;
     }
 
-    /* .container{
-        margin-right: 0px !important;
-    }
 
-    .container-fluid{
-        margin-right: 0px !important;
-    }
 
-    .row{
-        margin-right: 0px !important;
-    } */
-    
 }
