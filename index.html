@@ -24,7 +24,7 @@
   <a target="_blank" href="https://api.whatsapp.com/send?phone=34648532794&text=Hola!%20Estamos%20a%20sus%20ordenes"
     class="btn-wsp"> <i class="fa fa-whatsapp"></i> </a>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">IM MARKETING</a>
+    <a class="navbar-brand mr-5" href="#">IM MARKETING</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,17 +32,23 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#banner">Inicio</a>
+        <li class="nav-item mr-5">
+          <a class="nav-link m" href="#banner">Inicio</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mr-5">
           <a class="nav-link" href="#empresa">Empresa</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mr-5">
           <a class="nav-link" href="#servicios">Servicios</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item mr-5">
           <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#contacto">¿Quiénes somos?</a>
+        </li>
+        <li class="nav-item mr-5">
+          <a class="nav-link" href="#contacto">Proyectos</a>
         </li>
       </ul>
     </div>
@@ -54,7 +60,8 @@
 
     <section id="banner" class="mt-5">
       <div class="container text-center">
-        <img src="img/IMG_20201019_130637-removebg-preview.png" class="img-fluid animate__heartBeat" id="animado" alt="">
+        <img src="img/IMG_20201019_130637-removebg-preview.png" class="img-fluid animate__heartBeat" id="animado"
+          alt="">
       </div>
     </section>
 
@@ -72,7 +79,8 @@
 
                   <p>
                     Nuestro propósito es financiar fondos sociales para hacer campañas apoyando a la gente que lo
-                    necesita (en unas semanas te enviaremos unos vídeos de estas campañas y los subirás a la página web).
+                    necesita (en unas semanas te enviaremos unos vídeos de estas campañas y los subirás a la página
+                    web).
                   </p>
 
                   <a href="" class="btn btn-primary btn-lg mt-3">¡Contactanos!</a>
@@ -114,12 +122,12 @@
         </div>
       </div>
 
-    </section> 
+    </section>
 
     <section id="ventajas" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Beneficios
       </h2>
-      <div class="container" >
+      <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-md-6" data-aos="flip-left">
             <ul>
@@ -130,7 +138,7 @@
             </ul>
           </div>
           <div class="col-md-6 text-right" data-aos="flip-left">
-            <img src="img/WhatsApp_Image_2020-10-19_at_15.31.32-removebg-preview (1).png" class="img-fluid temblor" 
+            <img src="img/WhatsApp_Image_2020-10-19_at_15.31.32-removebg-preview (1).png" class="img-fluid temblor"
               width="80%" alt="">
           </div>
         </div>
@@ -207,10 +215,52 @@
 
       <div class="text-center mt-5 pregunta" data-aos="fade-down">
         <p><b>Pregunta por nuestros paquetes personalizados en función a tus necesidades.</b></p>
-        <a href="" class="btn btn-outline-warning btn-lg ">¡Contactar!</a>
+        <button href="" class="btn btn-outline-warning btn-lg " data-toggle="modal"
+          data-target="#exampleModal">¡Contactar!</button>
       </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto</h5>
+              <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="pb-5">
+                <div class="form-group text-left">
+                  <label for="exampleInputEmail1"><b>Nombre</b></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Nombre completo">
+                </div>
+                <div class="form-group text-left">
+                  <label for="exampleInputPassword1"><b>Correo</b></label>
+                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Correo">
+                </div>
+                <div class="form-group text-left">
+                  <label for="exampleInputPassword1"><b>Número de telefono</b></label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"
+                    placeholder="Número de teléfono">
+                </div>
+                <div class="form-group text-left">
+                  <label for="exampleInputPassword1"><b>Mensaje</b></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning btn-lg btn-block btn1 ">Enviar</button>
 
-    </section> 
+              </form>
+            </div>
+            <div class="modal-footer ">
+              <p class="mr-2 pmodal"> <i class="fa fa-envelope"></i> fmservices.20sl@gmail.com</p><br>
+              <p class="mr-2 pmodal"> <i class="fa fa-phone"></i>+34 648 532 794</p>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="proceso" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">Nuestro
@@ -237,23 +287,23 @@
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="8%" alt="">¡Es tu
         oportunidad!</h2>
       <div class="container text-center">
-          <div class="col-md-12 text-center" data-aos="zoom-in">
-            <p>
-              Juntos resolveremos los problemas que tu compañia ha tenido y de esa forma podremos hacer que tu negocio
-              crezca,no te preocupes, estamos aqui para conocer tus metas y estamos seguros que justos las lograremos
-              cumplir.
-            </p>
-            <img src="img/WhatsApp_Image_2020-10-19_at_15.31.12-removebg-preview (1).png" class="img-fluid temblor"
-              width="20%" alt="">
-          </div>
+        <div class="col-md-12 text-center" data-aos="zoom-in">
+          <p>
+            Juntos resolveremos los problemas que tu compañia ha tenido y de esa forma podremos hacer que tu negocio
+            crezca,no te preocupes, estamos aqui para conocer tus metas y estamos seguros que juntos las lograremos
+            cumplir.
+          </p>
+          <img src="img/WhatsApp_Image_2020-10-19_at_15.31.12-removebg-preview (1).png" class="img-fluid temblor"
+            width="20%" alt="">
+        </div>
 
       </div>
-    </section> 
+    </section>
 
     <section id="nosotros" class="mt-5">
       <h2 class="text-center title"><img src="img/check-304167_640.png" class="img-fluid" width="10%" alt="">¿Porqué
         escogernos?</h2>
-      <div class="container" >
+      <div class="container">
         <div class="row">
           <div class=" text-center" data-aos="zoom-in-up">
             <p>
@@ -262,15 +312,15 @@
               todas tu metas y viendo crecer tu negocios.
             </p>
             <img src="img/WhatsApp_Image_2020-10-19_at_15.30.28-removebg-preview (1).png" class="img-fluid temblor"
-            width="20%" alt="">
+              width="20%" alt="">
           </div>
         </div>
       </div>
-    </section> 
+    </section>
 
     <!-- data-aos="fade-left" -->
-    <section id="contacto" class="mt-5 bg-warning" >
-      <div class="container text-center pt-4 " >
+    <section id="contacto" class="mt-5 bg-warning">
+      <div class="container text-center pt-4 ">
         <div class="mt-3" data-aos="flip-left">
           <div class="dialogo">
             <p><b>Si gustas más información y una asesoria gratis ponte en contacto con nosotros llenando el siguiente
@@ -284,18 +334,22 @@
             </div>
             <div class="form-group text-left">
               <label for="exampleInputPassword1"><b>Correo</b></label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo">
+              <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Correo">
             </div>
             <div class="form-group text-left">
               <label for="exampleInputPassword1"><b>Número de telefono</b></label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Número de teléfono">
+            </div>
+            <div class="form-group text-left">
+              <label for="exampleInputPassword1"><b>Mensaje</b></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-danger btn-lg btn-block btn1 ">Enviar</button>
           </form>
         </div>
 
       </div>
-    </section> 
+    </section>
 
   </main>
 
@@ -308,8 +362,6 @@
             <a href=""><i class="fa fa-facebook text-dark mr-4"></i></a>
             <a href=""><i class="fa fa-instagram text-dark mr-4"></i></a>
             <a href=""><i class="fa fa-twitter text-dark mr-4"></i></a>
-            <a href=""><i class="fa fa-pinterest text-dark mr-4"></i></a>
-            <a href=""><i class="fa fa-linkedin text-dark mr-4"></i></a>
           </div>
         </div>
       </div>
@@ -373,10 +425,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
