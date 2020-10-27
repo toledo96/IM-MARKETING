@@ -186,6 +186,13 @@ footer ul li a:hover{
     font-size: 15px !important;
 }
 
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
 
 @media screen and (max-width: 800px){
 
